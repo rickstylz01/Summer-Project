@@ -1,10 +1,6 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 const QuoteForm = () => {
-  useEffect(() => {
-    // Initialize Bootstrap Select plugin after component mounts
-    $('.selectpicker').selectpicker();
-  }, []);
 
   return (
     <>
@@ -16,8 +12,8 @@ const QuoteForm = () => {
         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email"/>
       </div>
       <div className="mb-3">
-        <select className="form-control selectpicker" id="dropdownField" data-placeholder="Select a capability">
-          <option></option>
+        <select className="form-select" id="dropdownField" data-placeholder="Select a capability">
+          <option selected>Choose a capability</option>
           <option value="option1">Option 1</option>
           <option value="option1">Option 2</option>
           <option value="option1">Option 3</option>
