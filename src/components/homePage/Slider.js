@@ -13,13 +13,13 @@ const Slider = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={process.env.PUBLIC_URL + '/assets/images/slider_1.jpg'} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={process.env.PUBLIC_URL + '/assets/images/slider_2.jpg'} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={process.env.PUBLIC_URL + '/assets/images/slider_3.jpg'} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
