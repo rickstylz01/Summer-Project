@@ -16,7 +16,7 @@ const FlavorCards = () => {
         </div>
         <div className="col">
           <div className="card">
-            <img src={process.env.PUBLIC_URL + '/assets/images/citrus.jpg'} className="card-img-top" alt="..."/>
+            <img src={process.env.PUBLIC_URL + '/assets/images/citrus.jpg'} className="card-img-top" alt="citrus fruits slices lined up from small to big"/>
             <div className="card-body">
               <h5 className="card-title">Citrus</h5>
             </div>
@@ -24,7 +24,7 @@ const FlavorCards = () => {
         </div>
         <div className="col">
           <div className="card">
-            <img src={process.env.PUBLIC_URL + '/assets/images/tropical.jpg'} className="card-img-top" alt="..."/>
+            <img src={process.env.PUBLIC_URL + '/assets/images/tropical.jpg'} className="card-img-top" alt="a dragon fruit sliced in half"/>
             <div className="card-body">
               <h5 className="card-title">Tropical</h5>
             </div>
@@ -32,7 +32,7 @@ const FlavorCards = () => {
         </div>
         <div className="col">
           <div className="card">
-            <img src={process.env.PUBLIC_URL + '/assets/images/fruits-etc.jpg'} className="card-img-top" alt="..."/>
+            <img src={process.env.PUBLIC_URL + '/assets/images/fruits-etc.jpg'} className="card-img-top" alt="a man in front of a fruit market"/>
             <div className="card-body">
               <h5 className="card-title">Etc...</h5>
             </div>
