@@ -4,7 +4,7 @@ const Quote = () => {
 
   return (
     <>
-      {/*make a border for the form*/}
+      {/*TODO:make a border for the form*/}
       <div className="mb-3">
         <input type="text" className="form-control" id="name" placeholder="Name"/>
       </div>
@@ -22,6 +22,14 @@ const Quote = () => {
       <div className="mb-3">
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
       </div>
+      <div className="form-check">
+        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+          <label className="form-check-label" htmlFor="flexCheckDefault">
+            I'd like to receive the newsletter
+          </label>
+      </div>
+      {/* TODO: change color of button text*/}
+      <button type="button" className="btn btn-info">Get a quote</button>
     </>
   )
 }
