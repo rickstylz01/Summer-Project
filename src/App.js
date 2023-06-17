@@ -6,9 +6,9 @@ import Flavors from "./components/flavorsPage/Flavors";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Footer />
+      {/*<Header />*/}
+      {/*<Home />*/}
+      {/*<Footer />*/}
       <Flavors />
     </div>
   );
