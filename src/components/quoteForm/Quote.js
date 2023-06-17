@@ -1,6 +1,6 @@
 import React from "react";
 
-const QuoteForm = () => {
+const Quote = () => {
 
   return (
     <>
@@ -26,4 +26,4 @@ const QuoteForm = () => {
   )
 }
 
-export default QuoteForm;
+export default Quote;
