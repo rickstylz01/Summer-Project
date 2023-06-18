@@ -67,8 +67,10 @@ const FlavorCards = () => {
             </a>
           </div>
         </div>
+        <div id="flavorCards-quote-container">
+          <Quote/>
+        </div>
       </div>
-      <Quote/>
     </div>
   )
 }

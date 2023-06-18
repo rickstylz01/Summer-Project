@@ -3,9 +3,7 @@ import FlavorCards from "./flavorCards/FlavorCards";
 
 const Flavors = () => {
   return (
-    <div id="flavorsPage-wrapper">
-      <FlavorCards/>
-    </div>
+    <FlavorCards/>
   )
 }
 
