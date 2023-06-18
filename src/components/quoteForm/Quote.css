@@ -28,7 +28,7 @@
 /* Laptop */
 @media (min-width: 992px) {
   #quoteForm-container {
-    border: 1px solid black;
+    border: 1px solid gainsboro;
     width: 300px;
     margin-bottom: 23px;
   }
