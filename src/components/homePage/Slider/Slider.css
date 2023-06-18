@@ -1,5 +1,6 @@
 #carouselExampleIndicators img {
   height: 205px;
+  margin-bottom: ;
 }
 
 /* Tablets */
@@ -23,7 +24,7 @@
   }
 }
 
-/* Media query for large desktops */
+/* Large Desktops */
 @media (min-width: 1600px) {
   #carouselExampleIndicators img {
     height: 1150px;
