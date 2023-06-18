@@ -1,0 +1,15 @@
+#quoteForm-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-check {
+  margin-bottom: 16px;
+}
+
+.custom-button {
+  width: fit-content;
+  align-self: center;
+}
