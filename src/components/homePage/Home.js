@@ -1,6 +1,6 @@
 import React from "react";
-import Slider from "./Slider/Slider";
-import HomeBody from "./HomeBody";
+import Slider from "../Slider/Slider";
+import HomeBody from "./homePageBody/HomeBody";
 
 const Home = () => {
   return(
