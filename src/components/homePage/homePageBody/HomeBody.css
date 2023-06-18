@@ -20,6 +20,12 @@
     align-self: flex-start;
     flex-direction: row;
   }
+
+  #heading-article-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: start;
+  }
 }
 
 /* Large Laptops */
