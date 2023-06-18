@@ -10,14 +10,20 @@
   margin-bottom: 16px;
 }
 
+/* Tablet */
+@media (min-width: 768px) {
+  #heading-article-container {
+    padding-inline: 20px;
+  }
+
+  #article {
+    padding-right: 0px;
+  }
+}
+
 /* Laptops */
 @media (min-width: 992px) {
   #home-section-wrapper {
-    flex-direction: row;
-  }
-
-  #heading {
-    align-self: flex-start;
     flex-direction: row;
   }
 
@@ -25,6 +31,16 @@
     display: flex;
     flex-flow: row wrap;
     align-self: start;
+    flex-grow: 2;
+  }
+
+  #heading {
+    align-self: flex-start;
+    font-size: xxx-large;
+  }
+
+  #article {
+    padding-right: 47px;
   }
 }
 
