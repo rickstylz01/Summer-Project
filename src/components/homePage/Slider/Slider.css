@@ -1,3 +1,41 @@
-.slider-img-1 {
-  height: 160px;
+#carouselExampleIndicators img {
+  height: 180px;
 }
+
+/* Tablets */
+@media (min-width: 768px) {
+  .slider-img-1 {
+
+  }
+}
+
+/* Media query for small desktops */
+@media (min-width: 992px) {
+  /* Small desktop-specific styles */
+  .container {
+    width: 70%;
+  }
+}
+
+/* Media query for medium desktops */
+@media (min-width: 1200px) {
+  /* Medium desktop-specific styles */
+  .container {
+    width: 60%;
+  }
+}
+
+/* Media query for large desktops */
+@media (min-width: 1600px) {
+  /* Large desktop-specific styles */
+  .container {
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+

@@ -38,14 +38,14 @@ const Slider = () => {
         <div className="carousel-item">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/slider_2.jpg'}
-            className="d-block w-100"
+            className="slider-img-2 d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/slider_3.jpg'}
-            className="d-block w-100"
+            className="slider-img-3 d-block w-100"
             alt="..."
           />
         </div>
