@@ -1,4 +1,5 @@
 import React from "react";
+import './Slider.css'
 
 const Slider = () => {
   return (
@@ -30,7 +31,7 @@ const Slider = () => {
         <div className="carousel-item active">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/slider_1.jpg'}
-            className="d-block w-100"
+            className="slider-img-1 d-block w-100"
             alt="..."
           />
         </div>
