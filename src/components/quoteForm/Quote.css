@@ -9,7 +9,8 @@
   margin-bottom: 16px;
 }
 
-.custom-button {
+.custom-button,
+.form-check {
   width: fit-content;
   align-self: center;
 }
