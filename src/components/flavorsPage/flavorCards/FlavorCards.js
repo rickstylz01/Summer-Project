@@ -1,5 +1,6 @@
 import React from "react";
 import './FlavorCards.css'
+import Quote from "../../quoteForm/Quote";
 
 const FlavorCards = () => {
   return (
@@ -65,6 +66,7 @@ const FlavorCards = () => {
             </div>
           </a>
         </div>
+        <Quote/>
       </div>
     </div>
   )

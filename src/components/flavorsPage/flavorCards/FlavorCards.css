@@ -1,7 +1,17 @@
+#flavorsCards-wrapper {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 .flavor-header,
 .card-body {
   display: flex;
   justify-content: center;
+}
+
+.flavor-header {
+  padding: 30px;
 }
 
 /*removing underline from card titles*/
