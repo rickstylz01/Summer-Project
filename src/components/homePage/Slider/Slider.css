@@ -1,35 +1,32 @@
 #carouselExampleIndicators img {
-  height: 180px;
+  height: 205px;
 }
 
 /* Tablets */
 @media (min-width: 768px) {
-  .slider-img-1 {
-
+  #carouselExampleIndicators img {
+    height: 360px;
   }
 }
 
-/* Media query for small desktops */
+/* Laptop */
 @media (min-width: 992px) {
-  /* Small desktop-specific styles */
-  .container {
-    width: 70%;
+  #carouselExampleIndicators img {
+    height: 450px;
   }
 }
 
-/* Media query for medium desktops */
+/* Desktop */
 @media (min-width: 1200px) {
-  /* Medium desktop-specific styles */
-  .container {
-    width: 60%;
+  #carouselExampleIndicators img {
+    height: 650px;
   }
 }
 
 /* Media query for large desktops */
 @media (min-width: 1600px) {
-  /* Large desktop-specific styles */
-  .container {
-    width: 50%;
+  #carouselExampleIndicators img {
+    height: 1150px;
   }
 }
 
