@@ -1,10 +1,11 @@
 #quoteForm-container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   padding-block: 30px;
   padding-inline: 15px;
+  margin-bottom: 55px;
+  width: 370px;
 }
 
 .form-check {
@@ -19,11 +20,23 @@
 
 /* Tablets */
 @media (min-width: 768px) {
-
+  #quoteForm-container {
+    width: 715px;
+  }
 }
 
 /* Laptop */
 @media (min-width: 992px) {
+  #quoteForm-container {
+    border: 1px solid gainsboro;
+    width: 470px;
+    margin-bottom: 23px;
+    margin-right: 44px;
+  }
+
+  .comment-area {
+    height: 14.75rem;
+  }
 }
 
 /* Desktop */

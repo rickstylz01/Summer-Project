@@ -2,7 +2,6 @@ import React from "react";
 import './Quote.css';
 
 const Quote = () => {
-
   return (
     <div id="quoteForm-container">
       <div className="mb-3">
@@ -31,7 +30,7 @@ const Quote = () => {
       </div>
       <div className="mb-3">
         <textarea
-          className="form-control"
+          className="form-control comment-area"
           id="exampleFormControlTextarea1"
           rows="3"
           placeholder="Comments">
