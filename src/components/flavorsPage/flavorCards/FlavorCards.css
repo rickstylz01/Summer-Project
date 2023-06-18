@@ -1,0 +1,10 @@
+.flavor-header,
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+/*removing underline from card titles*/
+.col a {
+  text-decoration: none;
+}
