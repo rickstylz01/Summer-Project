@@ -1,11 +1,19 @@
 import React from "react";
+import './Footer.css';
 
 const Footer = () => {
-  return(
-    // TODO:create a black border for footer
-    <footer>
-      <div><small>Copyright &copy; 2018. All rights reserved. </small></div>
-      <div><img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="NLU logo"/></div>
+  return (
+    <footer id="footer-container">
+      <div id="img-container">
+        <img
+          className="footer-logo"
+          src={process.env.PUBLIC_URL + '/assets/images/logo.png'}
+          alt="NLU logo"
+        />
+      </div>
+      <div id="copyright-container">
+        <small className="copyright-text">Copyright &copy; 2018. All rights reserved. </small>
+      </div>
     </footer>
   )
 }
