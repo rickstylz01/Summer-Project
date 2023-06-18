@@ -1,7 +1,6 @@
 #flavorsCards-body-wrapper {
   display: flex;
   flex-direction: column;
-  /*flex-flow: wrap;*/
   justify-content: center;
 }
 
@@ -24,5 +23,16 @@
 @media (min-width: 992px) {
   #flavorsCards-body-wrapper {
     flex-direction: row;
+  }
+
+  #cards-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .flavor-header {
+    font-size: xxx-large;
+    flex-grow: 2;
+    align-self: start;
   }
 }
