@@ -1,0 +1,47 @@
+#footer-container {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  padding-block: 22px;
+  margin-top: 50px;
+}
+
+#copyright-container {
+  margin-top: 18px
+}
+
+.footer-logo {
+  height: 84px;
+}
+
+/*Tablets*/
+@media (min-width: 768px) {
+  #footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 55px;
+    padding-block: 18px;
+  }
+
+  #img-container {
+    order: 2;
+  }
+
+  #copyright-container {
+    order: 1;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+
+/*Medium Desktops*/
+@media (min-width: 1200px) {
+  .footer-logo {
+    height: 60px;
+  }
+
+  .copyright-text {
+    font-size: 18px;
+  }
+}
