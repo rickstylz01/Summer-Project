@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  padding-block: 30px;
+  padding-inline: 15px;
 }
 
 .form-check {
@@ -13,4 +15,21 @@
 .form-check {
   width: fit-content;
   align-self: center;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+
+}
+
+/* Laptop */
+@media (min-width: 992px) {
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+}
+
+/* Large Desktops */
+@media (min-width: 1600px) {
 }
