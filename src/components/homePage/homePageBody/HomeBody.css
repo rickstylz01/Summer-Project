@@ -8,3 +8,23 @@
 .article {
   padding: 25px;
 }
+
+/* Tablets */
+@media (min-width: 768px) {
+
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+
+}
+
+/* Large Laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Desktops */
+@media (min-width: 1600px) {
+
+}
