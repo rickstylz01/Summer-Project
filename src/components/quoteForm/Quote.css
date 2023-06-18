@@ -5,7 +5,8 @@
   align-items: stretch;
   padding-block: 30px;
   padding-inline: 15px;
-
+  margin-bottom: 55px;
+  width: 370px;
 }
 
 .form-check {
@@ -20,7 +21,9 @@
 
 /* Tablets */
 @media (min-width: 768px) {
-
+  #quoteForm-container {
+    width: 565px;
+  }
 }
 
 /* Laptop */
