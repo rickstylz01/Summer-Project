@@ -4,7 +4,7 @@ import Quote from "../../quoteForm/Quote";
 
 const FlavorCards = () => {
   return (
-    <div id="flavorsCards-wrapper">
+    <div id="flavorsCards-body-wrapper">
       <div className="flavor-header">
         <h1>Flavors</h1>
       </div>
@@ -66,8 +66,8 @@ const FlavorCards = () => {
             </div>
           </a>
         </div>
-        <Quote/>
       </div>
+      <Quote/>
     </div>
   )
 }

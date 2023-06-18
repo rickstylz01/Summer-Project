@@ -1,6 +1,7 @@
-#flavorsCards-wrapper {
+#flavorsCards-body-wrapper {
   display: flex;
-  flex-flow: wrap;
+  flex-direction: column;
+  /*flex-flow: wrap;*/
   justify-content: center;
 }
 
@@ -17,4 +18,11 @@
 /*removing underline from card titles*/
 .col a {
   text-decoration: none;
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+  #flavorsCards-body-wrapper {
+    flex-direction: row;
+  }
 }
