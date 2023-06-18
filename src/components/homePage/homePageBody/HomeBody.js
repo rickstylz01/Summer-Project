@@ -1,5 +1,5 @@
 import React from "react";
-import Quote from "../quoteForm/Quote";
+import Quote from "../../quoteForm/Quote";
 const HomeBody = () => {
   return(
     <div className="section">
