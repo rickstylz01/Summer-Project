@@ -29,8 +29,13 @@
 @media (min-width: 992px) {
   #quoteForm-container {
     border: 1px solid gainsboro;
-    width: 300px;
+    width: 470px;
     margin-bottom: 23px;
+    margin-right: 44px;
+  }
+
+  .comment-area {
+    height: 14.75rem;
   }
 }
 
