@@ -1,0 +1,38 @@
+#carouselExampleIndicators img {
+  height: 205px;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  #carouselExampleIndicators img {
+    height: 360px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 992px) {
+  #carouselExampleIndicators img {
+    height: 450px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  #carouselExampleIndicators img {
+    height: 650px;
+  }
+}
+
+/* Large Desktops */
+@media (min-width: 1600px) {
+  #carouselExampleIndicators img {
+    height: 1150px;
+  }
+}
+
+
+
+
+
+
+
