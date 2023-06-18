@@ -1,5 +1,4 @@
 #quoteForm-container {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -22,12 +21,15 @@
 /* Tablets */
 @media (min-width: 768px) {
   #quoteForm-container {
-    width: 565px;
+    width: 715px;
   }
 }
 
 /* Laptop */
 @media (min-width: 992px) {
+  #quoteForm-container {
+    border: 1px solid black;
+  }
 }
 
 /* Desktop */

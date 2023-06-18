@@ -3,20 +3,23 @@
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+  padding: 13px;
 }
 
-.article {
-  padding: 25px;
-}
-
-/* Tablets */
-@media (min-width: 768px) {
+#heading {
 
 }
 
 /* Laptops */
 @media (min-width: 992px) {
+  #home-section-container {
+    flex-flow: row wrap;
+  }
 
+  #heading {
+    align-self: flex-start;
+    flex-direction: row;
+  }
 }
 
 /* Large Laptops */
