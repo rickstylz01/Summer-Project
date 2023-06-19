@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
+import './Navbar.css'
 
 const Navbar = () => {
   const flavorsCategories = ['Soft Fruits', 'Citrus', 'Tropical'];
@@ -73,7 +74,7 @@ const Navbar = () => {
               >
                 <Link
                   to="/flavors"
-                  className="d-inline-block"
+                  className="d-inline-block flavors-link"
                 >
                   Flavors
                 </Link>
