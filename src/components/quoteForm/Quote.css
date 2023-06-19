@@ -31,7 +31,7 @@
 @media (min-width: 992px) {
   #quoteForm-container {
     border: 1px solid gainsboro;
-    width: 470px;
+    width: 100%;
     margin-bottom: 23px;
     margin-right: 44px;
     padding-inline: 15px;
@@ -46,14 +46,14 @@
 @media (min-width: 1200px) {
 }
 
-/* Large Desktops */
-@media (min-width: 1600px) {
-  #quoteForm-container {
-    width: 650px;
-    height: 1010px;
-  }
+/*!* Large Desktops *!*/
+/*@media (min-width: 1600px) {*/
+/*  #quoteForm-container {*/
+/*    width: 650px;*/
+/*    height: 1010px;*/
+/*  }*/
 
-  .comment-area {
-    height: 41.75rem;
-  }
-}
+/*  .comment-area {*/
+/*    height: 41.75rem;*/
+/*  }*/
+/*}*/
