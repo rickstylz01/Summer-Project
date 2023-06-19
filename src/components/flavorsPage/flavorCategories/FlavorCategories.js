@@ -7,7 +7,7 @@ const FlavorCategories = () => {
   const { category } = useParams();
 
   const flavorCategories = {
-    softFruit: [
+    "Soft Fruits": [
       'Sweet',
       'Tart',
       'Floral',
@@ -15,7 +15,7 @@ const FlavorCategories = () => {
       'Subtly Earthy',
       'Nutty'
     ],
-    citrus: [
+    "Citrus": [
       'Tangy',
       'Refreshing',
       'Zesty',
@@ -23,16 +23,22 @@ const FlavorCategories = () => {
       'Citrus-Sweet',
       'Tropical'
     ],
-    tropical: [
-      'Sweet',
-      'Tart',
-      'Floral',
-      'Juicy',
-      'Subtly Earthy',
-      'Nutty'
+    "Tropical": [
+      'Exotic',
+      'Tropical Citrus',
+      'Creamy',
+      'Tangy-Sweet',
+      'Coconutty',
+      'Melon-like'
     ]
   };
 
+  const selectedFlavorCategories = flavorCategories[category];
+
+  // Check if selectedFlavorCategories is undefined or null
+  if (!selectedFlavorCategories) {
+    return <div>Category not found.</div>;
+  }
 
   return (
     <div id="flavor-categories-wrapper">
@@ -42,12 +48,20 @@ const FlavorCategories = () => {
         </div>
         <div id="list-group-container">
           <ul className="list-group list-group-flush">
-            <li className="list-group-item">Aldehyde-Free, Berry</li>
-            <li className="list-group-item">Aldehyde-Free, Cherry</li>
-            <li className="list-group-item">Apple (various)</li>
-            <li className="list-group-item">Apple, Baked</li>
-            <li className="list-group-item">Apricot</li>
-            <li className="list-group-item">Etc...</li>
+            {selectedFlavorCategories.map((flavorCategory, index) => (
+              <li
+                key={index}
+                className="list-group-item"
+              >
+                {flavorCategory}
+              </li>
+            ))}
+            {/*<li className="list-group-item">Aldehyde-Free, Berry</li>*/}
+            {/*<li className="list-group-item">Aldehyde-Free, Cherry</li>*/}
+            {/*<li className="list-group-item">Apple (various)</li>*/}
+            {/*<li className="list-group-item">Apple, Baked</li>*/}
+            {/*<li className="list-group-item">Apricot</li>*/}
+            {/*<li className="list-group-item">Etc...</li>*/}
           </ul>
         </div>
       </div>
