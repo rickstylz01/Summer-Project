@@ -7,7 +7,7 @@ const FlavorCategories = () => {
   const { category } = useParams();
 
   const flavorCategories = {
-    "Soft Fruits": [
+    "soft fruits": [
       'Sweet',
       'Tart',
       'Floral',
@@ -15,7 +15,7 @@ const FlavorCategories = () => {
       'Subtly Earthy',
       'Nutty'
     ],
-    "Citrus": [
+    "citrus": [
       'Tangy',
       'Refreshing',
       'Zesty',
@@ -23,7 +23,7 @@ const FlavorCategories = () => {
       'Citrus-Sweet',
       'Tropical'
     ],
-    "Tropical": [
+    "tropical": [
       'Exotic',
       'Tropical Citrus',
       'Creamy',
@@ -40,11 +40,19 @@ const FlavorCategories = () => {
     return <div>Category not found.</div>;
   }
 
+  const categoryKey = Object.keys(flavorCategories).find(key => key === category);
+
+  const capitalizeFirstLetter = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
+  const categoryUpperCase = categoryKey ? capitalizeFirstLetter(categoryKey) : 'Flavor Category';
+
   return (
     <div id="flavor-categories-wrapper">
       <div id="flavor-categories-body-container">
         <div id="flavor-categories-header">
-          <h1>Flavor category name</h1>
+          <h1>{categoryUpperCase}</h1>
         </div>
         <div id="list-group-container">
           <ul className="list-group list-group-flush">
