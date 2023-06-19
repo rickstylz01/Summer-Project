@@ -1,8 +1,39 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import './FlavorCategories.css'
 import Quote from "../../quoteForm/Quote";
 
 const FlavorCategories = () => {
+  const { category } = useParams();
+
+  const flavorCategories = {
+    softFruit: [
+      'Sweet',
+      'Tart',
+      'Floral',
+      'Juicy',
+      'Subtly Earthy',
+      'Nutty'
+    ],
+    citrus: [
+      'Tangy',
+      'Refreshing',
+      'Zesty',
+      'Bitter-Sweet',
+      'Citrus-Sweet',
+      'Tropical'
+    ],
+    tropical: [
+      'Sweet',
+      'Tart',
+      'Floral',
+      'Juicy',
+      'Subtly Earthy',
+      'Nutty'
+    ]
+  };
+
+
   return (
     <div id="flavor-categories-wrapper">
       <div id="flavor-categories-body-container">

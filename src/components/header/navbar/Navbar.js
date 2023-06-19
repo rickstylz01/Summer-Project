@@ -45,7 +45,6 @@ const Navbar = () => {
                 Flavors
               </a>
               <ul className="dropdown-menu">
-                {/* TODO: dynamic list of all flavor categories*/}
                 {flavorsCategories.map((category, index) => (
                   <Link
                     key={index}
