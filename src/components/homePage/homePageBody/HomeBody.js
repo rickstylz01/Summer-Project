@@ -6,7 +6,9 @@ const HomeBody = () => {
   return (
     <div id="home-section-wrapper">
       <div id="heading-article-container">
-        <h1 id="heading">Design. Manufacture. Deliver</h1>
+        <div id="home-section-header">
+          <h1 id="heading">Design. Manufacture. Deliver</h1>
+        </div>
         <div id="article">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
