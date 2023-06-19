@@ -11,7 +11,7 @@ function App() {
       <Route element={<HeaderFooterWrapper />}>
         <Route exact path="/" element={<Home />} />
         <Route path='/flavors' element={<Flavors />} />
-        <Route path='/flavors/categories' element={<FlavorCategories />} />
+        <Route path='/flavors/categories/:category' element={<FlavorCategories />} />
       </Route>
     </Routes>
   );
