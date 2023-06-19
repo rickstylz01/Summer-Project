@@ -1,7 +1,9 @@
-#flavorsCards-body-wrapper {
+#flavors-cards-body-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-inline: 15px;
+  padding-block: 30px;
 }
 
 .flavor-header,
@@ -11,7 +13,7 @@
 }
 
 .flavor-header {
-  padding: 30px;
+  padding-bottom: 15px;
 }
 
 /*removing underline from card titles*/
@@ -19,14 +21,13 @@
   text-decoration: none;
 }
 
-#cards-wrapper {
-  padding-inline: 20px;
-}
-
 /* Laptops */
 @media (min-width: 992px) {
-  #flavorsCards-body-wrapper {
-    flex-direction: column;
+  #flavors-cards-body-wrapper {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    padding-inline: 35px;
   }
 
   .flavor-header {
@@ -35,16 +36,15 @@
     align-self: start;
   }
 
-  #cards-header-container {
+  #cards-body-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
     margin-bottom: 400px;
   }
 
   #cards-wrapper {
-    padding-left: 30px;
+    width: 1165px;
   }
 }
