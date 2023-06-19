@@ -22,12 +22,7 @@
 /* Laptops */
 @media (min-width: 992px) {
   #flavorsCards-body-wrapper {
-    flex-direction: row;
-  }
-
-  #cards-wrapper {
-    display: flex;
-    align-self: flex-end;
+    flex-direction: column;
   }
 
   .flavor-header {
@@ -38,6 +33,9 @@
 
   #cards-header-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
   }
 }

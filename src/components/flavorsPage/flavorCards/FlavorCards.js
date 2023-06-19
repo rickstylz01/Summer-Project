@@ -5,11 +5,11 @@ import Quote from "../../quoteForm/Quote";
 const FlavorCards = () => {
   return (
     <div id="flavorsCards-body-wrapper">
+      <div className="flavor-header">
+        <h1>Flavors</h1>
+      </div>
       <div id="cards-header-container">
-        <div className="flavor-header">
-          <h1>Flavors</h1>
-        </div>
-        <div id="cards-wrapper" className="row row-cols-1 row-cols-md-2 g-4">
+        <div id="cards-wrapper" className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <a href="#">
               <div className="card">
@@ -67,9 +67,9 @@ const FlavorCards = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div id="flavorCards-quoteForm-container">
-        <Quote/>
+        <div id="flavorCards-quoteForm-container">
+          <Quote/>
+        </div>
       </div>
     </div>
   )
