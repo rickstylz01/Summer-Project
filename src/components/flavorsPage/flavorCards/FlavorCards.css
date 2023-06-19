@@ -1,0 +1,54 @@
+#flavorsCards-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flavor-header,
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.flavor-header {
+  padding: 30px;
+}
+
+/*removing underline from card titles*/
+.col a {
+  text-decoration: none;
+}
+
+#cards-wrapper {
+  padding-inline: 20px;
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+  #flavorsCards-body-wrapper {
+    flex-direction: column;
+  }
+
+  .flavor-header {
+    font-size: xxx-large;
+    flex-grow: 2;
+    align-self: start;
+  }
+
+  #cards-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 400px;
+  }
+
+  #cards-wrapper {
+    padding-left: 30px;
+  }
+}
+
+/* Large Desktops */
+@media (min-width: 1600px) {
+}
