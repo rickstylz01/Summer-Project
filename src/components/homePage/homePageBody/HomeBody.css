@@ -6,39 +6,29 @@
 }
 
 #heading {
-  margin-bottom: 16px;
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  #heading-article-container {
-    padding-inline: 20px;
-  }
-
-  #article {
-    padding-right: 0px;
-  }
+  padding: 15px;
 }
 
 /* Laptops */
 @media (min-width: 992px) {
   #home-section-wrapper {
     flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 35px;
+    margin-bottom: 400px;
   }
 
   #heading-article-container {
     display: flex;
-    flex-flow: row wrap;
-    align-self: start;
-    flex-grow: 2;
+    flex-direction: column;
+    /*align-self: start;*/
   }
 
   #heading {
-    align-self: flex-start;
     font-size: xxx-large;
   }
 
   #article {
-    padding-right: 47px;
+    width: 680px;
   }
 }
