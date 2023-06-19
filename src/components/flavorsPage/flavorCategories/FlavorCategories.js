@@ -32,6 +32,7 @@ const FlavorCategories = () => {
       'Melon-like'
     ]
   };
+
   // retrieves category array based on category parameter value
   const selectedFlavorCategories = flavorCategories[category];
 
@@ -40,12 +41,11 @@ const FlavorCategories = () => {
     return <div>Category not found.</div>;
   }
 
+  // find category key from url path and capitalize first letter to render in h1 element
   const categoryKey = Object.keys(flavorCategories).find(key => key === category);
-
   const capitalizeFirstLetter = (str) => {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
-
   const categoryUpperCase = categoryKey ? capitalizeFirstLetter(categoryKey) : 'Flavor Category';
 
   return (
