@@ -1,18 +1,19 @@
 import './App.css';
-import Header from "./components/header/Header";
+import {Route, Routes} from 'react-router-dom'
 import Home from "./components/homePage/Home";
 import Flavors from "./components/flavorsPage/Flavors";
 import FlavorCategories from "./components/flavorsPage/flavorCategories/FlavorCategories";
-import Footer from "./components/footer/Footer";
+import HeaderFooterWrapper from "./components/HeaderFooterWrapper";
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      {/*<Flavors />*/}
-      {/*<FlavorCategories />*/}
-      <Footer />
-    </div>
+    <Routes>
+      <Route element={<HeaderFooterWrapper />}>
+        <Route exact path="/" element={<Home />} />
+        <Route path='/flavors' element={<Flavors />} />
+        <Route path='/flavors/categories' element={<FlavorCategories />} />
+      </Route>
+    </Routes>
   );
 }
 
