@@ -68,7 +68,7 @@ const FlavorCards = () => {
           </div>
         </div>
       </div>
-      <div id="flavorCards-quoteForm-container">
+      <div id="cards-quote-form-container">
         <Quote/>
       </div>
     </div>

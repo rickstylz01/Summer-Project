@@ -23,8 +23,11 @@
 
 /* Laptops */
 @media (min-width: 992px) {
-  #flavorsCards-body-wrapper {
+  #flavors-cards-body-wrapper {
     flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    padding-inline: 35px;
   }
 
   .flavor-header {
@@ -38,11 +41,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
     margin-bottom: 400px;
   }
 
   #cards-wrapper {
-    padding-left: 30px;
+    width: 1165px;
   }
 }
