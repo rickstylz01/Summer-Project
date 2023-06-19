@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../header/Header";
-import Quote from "../quoteForm/Quote";
-import Footer from "../footer/Footer";
+import Quote from "../../quoteForm/Quote";
 
 const FlavorCategories = () => {
   return (
-    <>
-      <Header />
+    <div id="">
       <h1>Flavor category name</h1>
       {/*TODO: align text to the right*/}
       <ul className="list-group list-group-flush">
@@ -18,8 +15,7 @@ const FlavorCategories = () => {
         <li className="list-group-item">Etc...</li>
       </ul>
       <Quote />
-      <Footer />
-    </>
+    </div>
   )
 }
 
