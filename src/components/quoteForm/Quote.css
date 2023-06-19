@@ -48,4 +48,12 @@
 
 /* Large Desktops */
 @media (min-width: 1600px) {
+  #quoteForm-container {
+    width: 650px;
+    height: 1010px;
+  }
+
+  .comment-area {
+    height: 41.75rem;
+  }
 }
