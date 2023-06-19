@@ -1,6 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import './FlavorCategories.css'
+import { useParams } from "react-router-dom";
 import Quote from "../../quoteForm/Quote";
 
 const FlavorCategories = () => {
@@ -32,7 +32,7 @@ const FlavorCategories = () => {
       'Melon-like'
     ]
   };
-
+  // retrieves category array based on category parameter value
   const selectedFlavorCategories = flavorCategories[category];
 
   // Check if selectedFlavorCategories is undefined or null
@@ -49,19 +49,10 @@ const FlavorCategories = () => {
         <div id="list-group-container">
           <ul className="list-group list-group-flush">
             {selectedFlavorCategories.map((flavorCategory, index) => (
-              <li
-                key={index}
-                className="list-group-item"
-              >
+              <li key={index} className="list-group-item">
                 {flavorCategory}
               </li>
             ))}
-            {/*<li className="list-group-item">Aldehyde-Free, Berry</li>*/}
-            {/*<li className="list-group-item">Aldehyde-Free, Cherry</li>*/}
-            {/*<li className="list-group-item">Apple (various)</li>*/}
-            {/*<li className="list-group-item">Apple, Baked</li>*/}
-            {/*<li className="list-group-item">Apricot</li>*/}
-            {/*<li className="list-group-item">Etc...</li>*/}
           </ul>
         </div>
       </div>

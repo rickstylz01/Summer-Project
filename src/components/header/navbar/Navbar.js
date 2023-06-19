@@ -1,8 +1,37 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
   const flavorsCategories = ['Soft Fruits', 'Citrus', 'Tropical'];
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
+  useEffect(() => {
+    // Enable hover effect for dropdown menus
+    const dropdownMenus = document.querySelectorAll('.dropdown');
+    dropdownMenus.forEach((dropdown) => {
+      dropdown.addEventListener('mouseenter', () => {
+        dropdown.querySelector('.dropdown-menu').classList.add('show');
+      });
+      dropdown.addEventListener('mouseleave', () => {
+        dropdown.querySelector('.dropdown-menu').classList.remove('show');
+      });
+    });
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      dropdownMenus.forEach((dropdown) => {
+        dropdown.removeEventListener('mouseenter', () => {
+        });
+        dropdown.removeEventListener('mouseleave', () => {
+        });
+      });
+    }
+  }, [])
+
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -24,6 +53,7 @@ const Navbar = () => {
                  aria-current="page"
                  href="#"
                  role="button"
+                 onClick={handleDropdownToggle}
                  data-bs-toggle="dropdown"
                  aria-expanded="false"
               >
@@ -36,18 +66,23 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <div
                 className="nav-link dropdown-toggle px-5"
-                href="#" role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                role="button"
+                onClick={handleDropdownToggle}
               >
-                Flavors
-              </a>
+                <Link
+                  to="/flavors"
+                  className="d-inline-block"
+                >
+                  Flavors
+                </Link>
+              </div>
               <ul className="dropdown-menu">
                 {flavorsCategories.map((category, index) => (
                   <Link
                     key={index}
+                    className="dropdown-item"
                     to={`/flavors/categories/${encodeURIComponent(category)}`}
                   >
                     {category}
