@@ -1,6 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
+  const flavorsCategories = ['Soft Fruits', 'Citrus', 'Tropical'];
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -33,13 +36,25 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown"
-                 aria-expanded="false">
+              <a
+                className="nav-link dropdown-toggle px-5"
+                href="#" role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Flavors
               </a>
               <ul className="dropdown-menu">
-                {/*dynamic list of all flavor categories*/}
-                <li><a className="dropdown-item " href="#">Action</a></li>
+                {/* TODO: dynamic list of all flavor categories*/}
+                {flavorsCategories.map((category, index) => (
+                  <Link
+                    key={index}
+                    to={`/flavors/categories/${encodeURIComponent(category)}`}
+                  >
+                    {category}
+                  </Link>
+                ))}
+                {/*<li><a className="dropdown-item " href="#">Action</a></li>*/}
               </ul>
             </li>
             <li className="nav-item">
