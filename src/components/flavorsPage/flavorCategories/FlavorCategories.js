@@ -7,7 +7,7 @@ const FlavorCategories = () => {
   const { category } = useParams();
 
   const flavorCategories = {
-    "Soft Fruits": [
+    "soft fruits": [
       'Sweet',
       'Tart',
       'Floral',
@@ -15,7 +15,7 @@ const FlavorCategories = () => {
       'Subtly Earthy',
       'Nutty'
     ],
-    "Citrus": [
+    "citrus": [
       'Tangy',
       'Refreshing',
       'Zesty',
@@ -23,7 +23,7 @@ const FlavorCategories = () => {
       'Citrus-Sweet',
       'Tropical'
     ],
-    "Tropical": [
+    "tropical": [
       'Exotic',
       'Tropical Citrus',
       'Creamy',

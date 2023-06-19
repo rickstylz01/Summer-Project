@@ -84,12 +84,11 @@ const Navbar = () => {
                   <Link
                     key={index}
                     className="dropdown-item"
-                    to={`/flavors/categories/${encodeURIComponent(category)}`}
+                    to={`/flavors/categories/${encodeURIComponent(category).toLowerCase()}`}
                   >
                     {category}
                   </Link>
                 ))}
-                {/*<li><a className="dropdown-item " href="#">Action</a></li>*/}
               </ul>
             </li>
             <li className="nav-item">
