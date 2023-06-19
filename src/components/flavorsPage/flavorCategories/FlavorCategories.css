@@ -29,13 +29,6 @@
     font-size: xxx-large;
   }
 
-  #flavor-categories-body-container {
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: space-between;*/
-    /*gap: 20px;*/
-  }
-
   #list-group-container {
     width: 100%;
     margin-bottom: 400px;
