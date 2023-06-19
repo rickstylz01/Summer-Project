@@ -1,0 +1,50 @@
+#flavor-categories-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 15px;
+  padding-block: 30px;
+}
+
+#flavor-categories-header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+#list-group-container {
+  margin-bottom: 70px;
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+  #flavor-categories-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 35px;
+    margin-bottom: 245px;
+  }
+
+  #flavor-categories-header {
+    justify-content: start;
+    font-size: xxx-large;
+  }
+
+  #flavor-categories-body-container {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*gap: 20px;*/
+  }
+
+  #list-group-container {
+    width: 100%;
+    margin-bottom: 400px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  #list-group-container {
+    width: 600px;
+  }
+}
