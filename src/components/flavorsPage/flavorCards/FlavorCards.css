@@ -19,6 +19,10 @@
   text-decoration: none;
 }
 
+#cards-wrapper {
+  padding-inline: 20px;
+}
+
 /* Laptops */
 @media (min-width: 992px) {
   #flavorsCards-body-wrapper {
@@ -43,4 +47,8 @@
   #cards-wrapper {
     padding-left: 30px;
   }
+}
+
+/* Large Desktops */
+@media (min-width: 1600px) {
 }

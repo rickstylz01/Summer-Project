@@ -4,7 +4,6 @@
   align-items: stretch;
   padding-block: 30px;
   padding-inline: 15px;
-  /*margin-bottom: 55px;*/
   margin: 0 auto;
   width: 100%;
 }
@@ -23,6 +22,8 @@
 @media (min-width: 768px) {
   #quoteForm-container {
     width: 715px;
+    /*to make it clean with flavorCards component*/
+    padding-inline: 0;
   }
 }
 
@@ -33,6 +34,7 @@
     width: 470px;
     margin-bottom: 23px;
     margin-right: 44px;
+    padding-inline: 15px;
   }
 
   .comment-area {
