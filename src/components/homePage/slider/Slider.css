@@ -1,5 +1,5 @@
 #carouselExampleIndicators img {
-  height: 185px;
+  height: 220px;
 }
 
 .carousel-image-container {
@@ -28,6 +28,17 @@
   #carouselExampleIndicators img {
     height: 480px;
   }
+
+  .carousel-inner {
+    height: 480px;
+    width: 100%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 /* Large Desktops */
@@ -35,6 +46,18 @@
   #carouselExampleIndicators img {
     height: 630px;
   }
+
+  .carousel-inner {
+    height: 480px;
+    width: 100%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
 }
 
 
