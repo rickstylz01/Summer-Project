@@ -21,11 +21,20 @@
   text-decoration: none;
 }
 
+.flavor-header h1 {
+  font-size: 35px;
+}
+
+@media (min-width: 768px) {
+  .flavor-header h1 {
+    font-size: 60px;
+  }
+}
+
 /* Laptops */
 @media (min-width: 992px) {
   #flavors-cards-body-wrapper {
     flex-direction: row;
-    gap: 20px;
     justify-content: space-between;
     padding-inline: 35px;
   }
@@ -45,6 +54,29 @@
   }
 
   #cards-wrapper {
-    width: 1165px;
+    width: 560px;
+  }
+
+  .flavor-header h1 {
+    font-size: 60px;
+  }
+
+  #cards-quote-form-container {
+    width: 470px;
+  }
+}
+
+/*Desktops*/
+@media (min-width: 1200px) {
+  #cards-wrapper {
+    width: 790px;
+  }
+
+  .flavor-header h1 {
+    font-size: 60px;
+  }
+
+  #cards-quote-form-container {
+    width: 470px;
   }
 }

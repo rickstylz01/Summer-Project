@@ -23,9 +23,9 @@ const Quote = () => {
       <div className="mb-3">
         <select className="form-select" id="dropdownField" data-placeholder="Select a capability">
           <option selected>Choose a capability</option>
-          <option value="option1">Option 1</option>
-          <option value="option1">Option 2</option>
-          <option value="option1">Option 3</option>
+          <option value="option1">Design</option>
+          <option value="option1">Production</option>
+          <option value="option1">Certification</option>
         </select>
       </div>
       <div className="mb-3">

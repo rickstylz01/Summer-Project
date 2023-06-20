@@ -11,8 +11,24 @@
   padding: 15px;
 }
 
+#flavor-categories-header h1 {
+  font-size: 35px;
+}
+
 #list-group-container {
   margin-bottom: 70px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: center;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  #flavor-categories-header h1 {
+    font-size: 60px;
+  }
 }
 
 /* Laptops */
@@ -29,9 +45,21 @@
     font-size: xxx-large;
   }
 
+  #flavor-categories-body-container {
+    width: 425px;
+  }
+
   #list-group-container {
     width: 100%;
     margin-bottom: 400px;
+  }
+
+  #flavor-categories-header h1 {
+    font-size: 60px;
+  }
+
+  .list-group-item {
+    justify-content: start;
   }
 }
 
@@ -39,5 +67,17 @@
 @media (min-width: 1200px) {
   #list-group-container {
     width: 600px;
+  }
+
+  #categories-quoteform-container {
+    width: 470px;
+  }
+
+  #flavor-categories-header h1 {
+    font-size: 60px;
+  }
+
+  .list-group-item {
+    justify-content: start;
   }
 }

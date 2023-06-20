@@ -11,7 +11,7 @@ const FlavorCards = () => {
         </div>
         <div id="cards-wrapper" className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
-            <a href="/flavors/categories/Soft%20Fruits">
+            <a href="/flavors/categories/soft%20fruits">
               <div className="card">
                 <img
                   src={process.env.PUBLIC_URL + '/assets/images/soft-fruits.jpg'}
@@ -25,7 +25,7 @@ const FlavorCards = () => {
             </a>
           </div>
           <div className="col">
-            <a href="/flavors/categories/Citrus">
+            <a href="/flavors/categories/citrus">
               <div className="card">
                 <img
                   src={process.env.PUBLIC_URL + '/assets/images/citrus.jpg'}
@@ -39,7 +39,7 @@ const FlavorCards = () => {
             </a>
           </div>
           <div className="col">
-            <a href="/flavors/categories/Tropical">
+            <a href="/flavors/categories/tropical">
               <div className="card">
                 <img
                   src={process.env.PUBLIC_URL + '/assets/images/tropical.jpg'}

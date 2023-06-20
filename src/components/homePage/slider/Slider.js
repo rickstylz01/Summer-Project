@@ -29,25 +29,31 @@ const Slider = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
-            src={process.env.PUBLIC_URL + '/assets/images/slider_1.jpg'}
-            className="slider-img-1 d-block w-100"
-            alt="..."
-          />
+          <div className="carousel-image-container">
+            <img
+              src={process.env.PUBLIC_URL + '/assets/images/slider_1.jpg'}
+              className="slider-img-1 d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
         <div className="carousel-item">
-          <img
-            src={process.env.PUBLIC_URL + '/assets/images/slider_2.jpg'}
-            className="slider-img-2 d-block w-100"
-            alt="..."
-          />
+          <div className="carousel-image-container">
+            <img
+              src={process.env.PUBLIC_URL + '/assets/images/slider_2.jpg'}
+              className="slider-img-2 d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
         <div className="carousel-item">
-          <img
-            src={process.env.PUBLIC_URL + '/assets/images/slider_3.jpg'}
-            className="slider-img-3 d-block w-100"
-            alt="..."
-          />
+          <div className="carousel-image-container">
+            <img
+              src={process.env.PUBLIC_URL + '/assets/images/slider_3.jpg'}
+              className="slider-img-3 d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
       </div>
       <button

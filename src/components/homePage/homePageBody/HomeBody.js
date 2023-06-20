@@ -7,7 +7,7 @@ const HomeBody = () => {
     <div id="home-section-wrapper">
       <div id="heading-article-container">
         <div id="home-section-header">
-          <h1 id="heading">Design. Manufacture. Deliver</h1>
+          <h1 id="heading">Design. Manufacture. Deliver.</h1>
         </div>
         <div id="article">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -20,7 +20,7 @@ const HomeBody = () => {
             nulla pariatur.</p>
         </div>
       </div>
-      <div className="quoteForm-homebody-wrapper">
+      <div className="homebody-quote-container">
         <Quote/>
       </div>
     </div>
