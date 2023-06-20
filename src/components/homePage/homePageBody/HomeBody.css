@@ -23,6 +23,10 @@
   #homebody-quote-container {
     width: 470px;
   }
+
+  #article {
+    padding-right: 15px;
+  }
 }
 
 /* Laptops */
