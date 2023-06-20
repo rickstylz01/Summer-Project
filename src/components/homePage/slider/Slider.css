@@ -2,6 +2,16 @@
   height: 220px;
 }
 
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .carousel-image-container {
   display: flex;
   justify-content: center;
@@ -11,26 +21,37 @@
 
 /* Tablets */
 @media (min-width: 768px) {
-  #carouselExampleIndicators img {
-    height: 360px;
+  .carousel-inner {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  #carouselExampleIndicators img,
+  .carousel-inner {
+    height: 480px;
   }
 }
 
 /* Laptop */
 @media (min-width: 992px) {
   #carouselExampleIndicators img {
-    height: 450px;
+    height: 480px;
   }
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
-  #carouselExampleIndicators img {
+  #carouselExampleIndicators img,
+  . carousel-inner {
     height: 480px;
   }
 
   .carousel-inner {
-    height: 480px;
     width: 100%;
   }
 
