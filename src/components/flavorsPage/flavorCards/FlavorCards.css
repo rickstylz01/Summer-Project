@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.flavor-header h1 {
+  font-size: 35px;
+}
+
 @media (min-width: 768px) {
   .flavor-header h1 {
     font-size: 60px;
