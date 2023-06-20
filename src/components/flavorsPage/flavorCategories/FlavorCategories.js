@@ -64,7 +64,7 @@ const FlavorCategories = () => {
           </ul>
         </div>
       </div>
-      <div id="flavorCategories-quoteForm-container">
+      <div id="categories-quoteform-container">
         <Quote/>
       </div>
     </div>

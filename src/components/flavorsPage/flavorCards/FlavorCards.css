@@ -48,3 +48,14 @@
     width: 1165px;
   }
 }
+
+/*Desktops*/
+@media (min-width: 1200px) {
+  .flavor-header h1 {
+    font-size: 60px;
+  }
+
+  #cards-quote-form-container {
+    width: 470px;
+  }
+}
