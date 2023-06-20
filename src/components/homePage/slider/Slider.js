@@ -33,7 +33,7 @@ const Slider = () => {
             <img
               src={process.env.PUBLIC_URL + '/assets/images/slider_1.jpg'}
               className="slider-img-1 d-block w-100"
-              alt="..."
+              alt="An NLU student holding a blue folder"
             />
           </div>
         </div>
@@ -42,7 +42,7 @@ const Slider = () => {
             <img
               src={process.env.PUBLIC_URL + '/assets/images/slider_2.jpg'}
               className="slider-img-2 d-block w-100"
-              alt="..."
+              alt="An image of NLU students and alumni"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ const Slider = () => {
             <img
               src={process.env.PUBLIC_URL + '/assets/images/slider_3.jpg'}
               className="slider-img-3 d-block w-100"
-              alt="..."
+              alt="People working together on laptops"
             />
           </div>
         </div>
