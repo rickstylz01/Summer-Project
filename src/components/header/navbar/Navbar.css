@@ -2,3 +2,7 @@
   text-decoration: none;
   color: dimgray;
 }
+
+.nav-link {
+  font-size: 20px;
+}
